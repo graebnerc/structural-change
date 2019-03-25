@@ -1,0 +1,21 @@
+# structural-change
+Data and code for the paper "Structural change in times of increasing openness"
+
+## Data overview
+
+`macro_data.csv`
+
+Projection data
+
+
+## File overview
+
+`jee-18-taxonomy-paper.R`:
+*Creates figure 4 of the main paper and figure 10 of the appendix. These figures rationalize the theoretical country groups with descriptive statistics.*
+
+Prerequisites for the file to run: macro dataset
+
+`jee-18-make-regressions.R`:
+*Takes the local projections data and creates data files with the estimation objects and the fixed effects estimates as well as all projection plots for the paper and the appendix.*
+
+Prerequisites for the file to run: function file `src-jee18/jee18-make-regressions-functions.R` and projection data
